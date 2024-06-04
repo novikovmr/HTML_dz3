@@ -1,0 +1,82 @@
+/* Небольшой оффтоп, я не свосем понял логику разбиения на блоки в макете, поэтому 
+хеддер вынес в отдельный семантический тег. Марджины у кнопок и ссылок в меню не ставил, чтобы потом gap задать. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    
+    padding-top: 40px;
+    margin-bottom: 84px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+}
+
+.logo__img {
+    width: 35px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+/* HOME */
+
+.home__top {
+    margin-bottom: 162px;
+}
+
+.home__title {
+    margin-bottom: 17px;
+}
+
+.home__description {
+    margin-bottom: 37px;
+}
+
+.top__img {
+    max-width: 610px;
+}
+
+.home__bot {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
+
+.home__btn {
+    padding: 15px 36px 16px 35px;
+}
